@@ -20,9 +20,9 @@ spec:
         ports:
         - containerPort: 80
         imagePullPolicy: Always
-        env:
-            - name: PORT
-              value: "80"
+        # env:
+        #     - name: PORT
+        #       value: "80"
 ---
 kind: Service
 apiVersion: v1
